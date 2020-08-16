@@ -11,8 +11,8 @@ VI [References](#vi-references)
 
 ## I Introduction
 
-The aim of this project is to classify fake news titles into three different categories: unre-
-lated, agreed, disagreed. This will be achieved by training a model on the given training
+The aim of this project is to classify fake news titles into three different categories: unrelated, agreed, disagreed. 
+This will be achieved by training a model on the given training
 data set and then verifying its accuracy on the validation data set. Finally, we’ll predict
 the labels for the test data set using our trained model.
 There are 3 stages in the project:
@@ -33,9 +33,8 @@ To clean the given data, we completed the following steps:
 3. So, we removed all those entries with incorrect labels and the resulting data is stored
     in ’cleanedtrain.csv’. This is done in the code file named as ’refining_step1.ipynb’.
 4. Later, we moved on to cleaning the news title data.
-5. We first split the sentences into individual words using word_tokenize, then re-
-    moved all the common stop words. Finally, we used Porter’stemmer algorithm to
-    get the root words.
+5. We first split the sentences into individual words using word_tokenize, then removed all the common stop words.
+   Finally, we used Porter’stemmer algorithm to get the root words.
 6. After completing the above mentioned cleaning processes, the data is stored in
     ’cleanedtrain2.csv’. These steps are executed in the file ’refining_step2.ipynb’.
 7. Similar steps are followed for the validation data set and the final result is stored
