@@ -2,13 +2,12 @@
 Using NLP to compare two news titles and predict whether they are correlated or not
 ## Contents
 
-I Introduction
-II Data Pre-processing
-III Feature Engineering
-IV Model Description
-V Results
+I Introduction\
+II Data Pre-processing\
+III Feature Engineering\
+IV Model Description\
+V Results\
 VI References
-
 
 ## I Introduction
 
