@@ -86,6 +86,7 @@ relevant code is present in the ’classification.ipynb’ file.
     tion is also called Normal distribution. When plotted, it gives a bell shaped curve
     which is symmetric about the mean of the feature values.
 
+![Gaussian](/images/bayes.PNG)
 ```
 Figure 1: Plot of Gaussian Distribution
 ```
@@ -100,6 +101,7 @@ Figure 1: Plot of Gaussian Distribution
     an ensemble. Each individual tree in the random forest spits out a class prediction
     and the class with the most votes becomes our model’s prediction.
 
+![Random](/images/random.PNG)
 ```
 Figure 2: Visualization of a Random Forest Model Making a Prediction
 ```
@@ -111,12 +113,15 @@ Figure 2: Visualization of a Random Forest Model Making a Prediction
     Adaboost is to set the weights of classifiers and training the data sample in each
     iteration such that it ensures the accurate predictions of unusual observations.
 
+![Adaboost](/images/adaboost.PNG)
 ```
 Figure 3: Flow chart of AdaBoost implementation
 ```
 
 ## V Results
 
+
+![Random](/images/result.PNG)
 ```
 Figure 4: Accuracy and F1 Score of various classification models
 ```
