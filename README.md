@@ -56,8 +56,7 @@ To clean the given data, we completed the following steps:
     and computational resource requirement. While the one with Transformer encoder
     has higher accuracy, it is computationally more intensive. The one with DAN
     encoding is computationally less expensive with little lower accuracy.
-5. We have used the transformer encoder by importing the pre-trained Universal Sen-
-    tence Encoder available in Tensorflow-hub.
+5. We have used the transformer encoder by importing the pre-trained Universal Sentence Encoder available in Tensorflow-hub.
 6. The relevant code to extract the sentence vectors is in ’sentence_encoder.py’.
 7. We take the data from ’cleanedtrain2.csv’ file as the input, convert it into vectors
     and store the vectors of title1_en and title2_en columns are saved in ’test3.npy’
