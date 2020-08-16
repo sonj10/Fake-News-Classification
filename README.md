@@ -2,6 +2,7 @@
 Using NLP to compare two news titles and predict whether they are correlated or not
 ## Contents
 
+I [Introduction](#i-inroduction)\
 I Introduction\
 II Data Pre-processing\
 III Feature Engineering\
