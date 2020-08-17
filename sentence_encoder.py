@@ -13,7 +13,6 @@ embed = hub.Module("../sentence_wise_email/module/module_useT")
 #module_url = "https://tfhub.dev/google/universal-sentence-encoder/1?tf-hub-format=compressed"
 #embed = hub.Module(module_url)
 
-
 # We are running this for the training data set
 data = pd.read_csv('cleanedtrain2.csv', delimiter=',')
 data1 = data[['id','title1_en','title2_en','label']]
